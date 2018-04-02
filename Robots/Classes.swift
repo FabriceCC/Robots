@@ -9,8 +9,11 @@
 import Foundation
 
 class Robot {
-    var nameRobot:String = " "
+    var nameRobot: String
     var lifeRobot = 100
     var speedMaxRobot = 3
     var positionRobot = ["X":0,"Y":0]
+    init(firstNameRobot: String) {
+        nameRobot = firstNameRobot
+    }
 }

@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+// Création d'un robot
+class firstRobot:Robot {
+    var firstRobot = Robot(firstNameRobot: "WallE")
+    }
 
