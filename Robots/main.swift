@@ -9,11 +9,15 @@
 import Foundation
 
 // Création d'un robot
-class firstRobot:Robot {
-    var firstRobot = Robot(firstNameRobot: "WallE")
-    }
+var firstRobot = Robot(firstNameRobot: "WallE")
+// Le premier robot se présente
+firstRobot.introdiuce()
+
 
 // Création deuxième robot
-class secondRobot:Robot {
-    var secondRobot = Robot(firstNameRobot: "Jack")
-}
+var secondRobot = Robot(firstNameRobot: "Jack")
+// Le second robot se présente
+secondRobot.introdiuce()
+    
+
+
