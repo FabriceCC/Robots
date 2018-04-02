@@ -13,3 +13,7 @@ class firstRobot:Robot {
     var firstRobot = Robot(firstNameRobot: "WallE")
     }
 
+// Création deuxième robot
+class secondRobot:Robot {
+    var secondRobot = Robot(firstNameRobot: "Jack")
+}
