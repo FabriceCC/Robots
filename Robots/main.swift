@@ -19,5 +19,14 @@ var secondRobot = Robot(firstNameRobot: "Jack")
 // Le second robot se présente
 secondRobot.introdiuce()
     
+// Création 4 robots dans un tableau
+
+var Robots = ["Joe","William","Jack","Averell"]
+
+var compteur = Robots.count
+for i in 0...compteur-1 {
+    var NameRobots = Robot (firstNameRobot: Robots[i])
+    NameRobots.introdiuce()
+}
 
 
