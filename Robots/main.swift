@@ -11,12 +11,14 @@ import Foundation
 // Création d'un robot
 var firstRobot = Robot(firstNameRobot: "WallE")
 // Le premier robot se présente
-firstRobot.introdiuce()
 
+firstRobot.moveDirection(speed: 3, direction: .right)
+firstRobot.introdiuce()
 
 // Création deuxième robot
 var secondRobot = Robot(firstNameRobot: "Jack")
 // Le second robot se présente
+secondRobot.seDeplacerAleatoirement ()
 secondRobot.introdiuce()
     
 // Création 4 robots dans un tableau
@@ -28,5 +30,4 @@ for i in 0...compteur-1 {
     var NameRobots = Robot (firstNameRobot: Robots[i])
     NameRobots.introdiuce()
 }
-
 
